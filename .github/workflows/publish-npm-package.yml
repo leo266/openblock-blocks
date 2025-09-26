@@ -6,6 +6,7 @@ on:
     paths-ignore:
       - 'README.md'
       - '.github/*'
+  workflow_dispatch:  # 添加手动触发选项
 
 jobs:
   check:
