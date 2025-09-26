@@ -1212,6 +1212,6 @@ if (isNodeJS) {
   document.write('<script>var goog = undefined;</script>');
   // Load fresh Closure Library.
   document.write('<script src="' + window.BLOCKLY_DIR +
-      '/../closure-library/closure/goog/base.js"></script>');
+      '/node_modules/google-closure-library/closure/goog/base.js"></script>');
   document.write('<script>window.BLOCKLY_BOOT();</script>');
 }
